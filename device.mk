@@ -363,6 +363,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
+    CarrierConfigOverlay \
     libjson \
     libqsap_sdk \
     librmnetctl

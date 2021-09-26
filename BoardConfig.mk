@@ -7,3 +7,6 @@
 BOARD_VENDOR := motorola
 
 DEVICE_PATH := device/motorola/tundra
+
+# Inherit from proprietary files
+include vendor/motorola/tundra/BoardConfigVendor.mk

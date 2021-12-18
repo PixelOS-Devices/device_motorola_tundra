@@ -77,6 +77,13 @@ $(RFS_MSM_SLPI_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /vendor/firmware_mnt $@/readonly/firmware
 	$(hide) ln -sf /vendor/firmware $@/readonly/vendor/firmware
 
-ALL_DEFAULT_INSTALLED_MODULES += $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS)
+EXPAT_SYMLINKS := $(TARGET_OUT_VENDOR_EXECUTABLES)/expat
+$(EXPAT_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "Expat bin link: $@"
+	@rm -rf $@
+	@mkdir -p $(dir $@)
+	$(hide) ln -sf motobox $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(EXPAT_SYMLINKS) $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS)
 
 endif

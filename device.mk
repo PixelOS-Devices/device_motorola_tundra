@@ -170,12 +170,15 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
 
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 # Sensors
+PRODUCT_PACKAGES += \
+    sensors.tundra
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

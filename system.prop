@@ -35,6 +35,10 @@ debug.sf.enable_hwc_vds=1
 # DPM
 persist.vendor.dpm.feature=11
 
+# Gboard
+ro.com.google.ime.kb_pad_port_l=11
+ro.com.google.ime.kb_pad_port_r=11
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1

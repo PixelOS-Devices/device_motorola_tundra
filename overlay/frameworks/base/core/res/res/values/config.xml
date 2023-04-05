@@ -77,6 +77,7 @@
         <item>1250</item>
         <item>3500</item>
         <item>5500</item>
+        <item>10000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -102,6 +103,7 @@
         <item>192</item>
         <item>252</item>
         <item>500</item>
+        <item>1100</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -120,7 +122,7 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>2.0</item>
-        <item>500.0</item>
+        <item>1100.0</item>
     </array>
 
     <!-- The display uses different gamma curves for different refresh rates. It's hard for panel

@@ -7,6 +7,10 @@
 # Call the proprietary setup
 $(call inherit-product, vendor/motorola/tundra/tundra-vendor.mk)
 
+# Partitions
+PRODUCT_BUILD_SUPER_PARTITION := false
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 

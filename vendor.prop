@@ -96,5 +96,11 @@ vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
+# Sensors
+persist.vendor.sensors.allow_non_default_discovery=true
+persist.vendor.sensors.on_change_sample_period=true
+persist.vendor.sensors.sync_request=true
+ro.vendor.sensors.glance_approach=false
+
 # SKU
 ro.boot.product.vendor.sku=lahaina

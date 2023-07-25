@@ -51,6 +51,10 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_BOOTLOADER_BOARD_NAME := tundra
 TARGET_NO_BOOTLOADER := true
 
+# GPS
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
+LOC_HIDL_VERSION := 4.0
+
 # Inherit from proprietary files
 include vendor/motorola/tundra/BoardConfigVendor.mk
 

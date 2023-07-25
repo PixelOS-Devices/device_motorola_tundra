@@ -83,3 +83,7 @@ vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
+
+# OEM
+vendor/bin/motobox
+vendor/etc/vhw.xml

@@ -62,6 +62,9 @@ function blob_fixup() {
         vendor/lib64/libmot_chi_desktop_helper.so)
             ${PATCHELF} --replace-needed "libgui_vendor.so" "libgui_shim_vendor.so" "${2}"
             ;;
+        system_ext/etc/permissions/moto-ims-ext.xml|system_ext/etc/permissions/moto-telephony.xml)
+            sed -i "s#/system/#/system_ext/#" "${2}"
+            ;;
     esac
 }
 

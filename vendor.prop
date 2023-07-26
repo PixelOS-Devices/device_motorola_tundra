@@ -137,6 +137,12 @@ persist.vendor.camera.physical.num=4
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
+# DPM
+persist.vendor.dpm.feature=1
+persist.vendor.dpm.idletimer.mode=default
+persist.vendor.dpmhalservice.enable=1
+persist.vendor.eab.supported=1
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
@@ -189,6 +195,15 @@ vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
 vendor.gralloc.disable_ubwc=0
 
+# IMS
+persist.vendor.ims.cam_sensor_delay=20
+persist.vendor.ims.disableDebugDataPathLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.display_delay=40
+persist.vendor.ims.playout_delay=50
+persist.vendor.ims.vt.enableadb=1
+
 # Media
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
@@ -201,6 +216,42 @@ ro.vendor.se.type=eSE,HCE,UICC
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=0
+
+# Radio
+persist.rcs.supported=1
+persist.vendor.data.iwlan.enable=true
+persist.vendor.radio.0x9e_not_callname=1
+persist.vendor.radio.add_power_save=1
+persist.vendor.radio.aosp_usr_pref_sel=true
+persist.vendor.radio.apm_sim_not_pwdn=1
+persist.vendor.radio.custom_ecc=1
+persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.data_ltd_sys_ind=1
+persist.vendor.radio.dfr_mode_set=1
+persist.vendor.radio.enable_temp_dds=true
+persist.vendor.radio.enableadvancedscan=true
+persist.vendor.radio.eri64_as_home=1
+persist.vendor.radio.fi_supported=0
+persist.vendor.radio.flexmap_type=none
+persist.vendor.radio.force_gba_over_isim_app=1
+persist.vendor.radio.force_get_pref=1
+persist.vendor.radio.hidl_dev_service=1
+persist.vendor.radio.is_wps_enabled=true
+persist.vendor.radio.lte_vrte_ltd=1
+persist.vendor.radio.mot_efs_log=true
+persist.vendor.radio.msgtunnel.start=true
+persist.vendor.radio.mt_sms_ack=30
+persist.vendor.radio.no_wait_for_card=1
+persist.vendor.radio.oem_ind_to_both=0
+persist.vendor.radio.procedure_bytes=SKIP
+persist.vendor.radio.qcril_uim_vcc_feature=1
+persist.vendor.radio.rat_on=combine
+persist.vendor.radio.sar_sensor=1
+persist.vendor.radio.sib16_support=1
+persist.vendor.radio.start_ota_daemon=0
+persist.vendor.radio.sw_mbn_update=0
+persist.vendor.rcs.singlereg.feature=1
+ro.vendor.radio.imei.sv=18
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true

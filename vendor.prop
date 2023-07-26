@@ -208,6 +208,9 @@ persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 ro.vendor.sensors.glance_approach=false
 
+# Storage
+ro.incremental.enable=yes
+
 # SKU
 ro.boot.product.vendor.sku=lahaina
 

@@ -133,6 +133,13 @@ ro.bluetooth.a2dp_offload.supported=true
 camera.disable_zsl_mode=true
 persist.vendor.camera.physical.num=4
 
+# Crypto
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+
+# Gatekeeper
+vendor.gatekeeper.disable_spu=true
+
 # Graphics
 debug.egl.hw=0
 debug.mdpcomp.logs=0

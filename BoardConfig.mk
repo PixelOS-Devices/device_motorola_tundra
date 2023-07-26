@@ -51,6 +51,9 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_BOOTLOADER_BOARD_NAME := tundra
 TARGET_NO_BOOTLOADER := true
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 

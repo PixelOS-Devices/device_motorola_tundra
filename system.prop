@@ -28,6 +28,9 @@ persist.mm.enable.prefetch=true
 ro.media.recorder-max-base-layer-fps=60
 vendor.mm.enable.qcom_parser=16777215
 
+# NFC
+ro.nfc.port=I2C
+
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 

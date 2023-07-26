@@ -568,6 +568,10 @@ vendor/etc/media_codecs_performance_lahaina.xml
 vendor/etc/media_profiles_lahaina.xml
 vendor/etc/media_profiles_vendor.xml
 
+# NFC
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp-pnscr.conf:vendor/etc/libnfc-nxp.conf
+
 # OEM
 vendor/bin/motobox
 vendor/etc/vhw.xml

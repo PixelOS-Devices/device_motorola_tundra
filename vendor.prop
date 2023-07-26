@@ -191,6 +191,10 @@ debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# NFC
+ro.vendor.nfc.repair=1
+ro.vendor.se.type=eSE,HCE,UICC
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=0

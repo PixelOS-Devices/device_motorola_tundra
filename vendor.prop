@@ -186,6 +186,10 @@ vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
 vendor.gralloc.disable_ubwc=0
 
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=0
+
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.on_change_sample_period=true

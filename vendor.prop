@@ -137,6 +137,9 @@ persist.vendor.camera.physical.num=4
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
+# FRP
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 

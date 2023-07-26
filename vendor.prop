@@ -129,6 +129,10 @@ persist.vendor.qcom.bluetooth.scram.enabled=false
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 
+# Camera
+camera.disable_zsl_mode=true
+persist.vendor.camera.physical.num=4
+
 # Graphics
 debug.egl.hw=0
 debug.mdpcomp.logs=0

@@ -56,6 +56,9 @@ function blob_fixup() {
         system_ext/lib64/libwfdnative.so)
             ${PATCHELF} --remove-needed "android.hidl.base@1.0.so" "${2}"
             ;;
+        vendor/lib64/libmot_chi_desktop_helper.so)
+            ${PATCHELF} --replace-needed "libgui_vendor.so" "libgui_shim_vendor.so" "${2}"
+            ;;
     esac
 }
 

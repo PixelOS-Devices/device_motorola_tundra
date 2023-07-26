@@ -104,3 +104,6 @@ ro.vendor.sensors.glance_approach=false
 
 # SKU
 ro.boot.product.vendor.sku=lahaina
+
+# WiFi
+wifi.aware.interface=wifi-aware0

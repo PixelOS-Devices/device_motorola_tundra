@@ -265,6 +265,9 @@ ro.incremental.enable=yes
 # SKU
 ro.boot.product.vendor.sku=lahaina
 
+# USB
+vendor.usb.use_ffs_mtp=1
+
 # WiFi
 wifi.aware.interface=wifi-aware0
 

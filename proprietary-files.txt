@@ -318,6 +318,12 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/mot_dw9781c.prog
 
+# CDSP
+vendor/bin/cdsprpcd
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
+
 # Charger
 vendor/bin/charge_only_mode
 vendor/bin/hvdcp_opti

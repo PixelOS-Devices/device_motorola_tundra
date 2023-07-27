@@ -154,6 +154,11 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Sepolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+PRODUCT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3

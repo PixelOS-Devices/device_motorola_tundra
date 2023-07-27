@@ -259,6 +259,10 @@ persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 ro.vendor.sensors.glance_approach=false
 
+# SOC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM8350
+
 # Storage
 ro.incremental.enable=yes
 

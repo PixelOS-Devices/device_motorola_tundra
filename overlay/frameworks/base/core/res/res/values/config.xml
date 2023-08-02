@@ -169,11 +169,11 @@
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
     <!-- MMS user agent string -->
-    <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
+    <string name="config_mms_user_agent" translatable="false">motorolaedge30fusion</string>
 
-    <!-- MMS user agent prolfile url -->
+    <!-- MMS user agent profile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false"
-            >http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+            >http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
 
      <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist

@@ -133,6 +133,10 @@ on boot
     chown system /sys/devices/system/cpu/hyp_core_ctl/enable
     chown system /sys/devices/system/cpu/hyp_core_ctl/hcc_min_freq
 
+    # DC dimming
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_dc
+
 on init && property:ro.boot.mode=charger
     mount_all /vendor/etc/charger_fstab.qcom --early
     write /sys/kernel/boot_adsp/boot 1

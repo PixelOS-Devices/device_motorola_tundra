@@ -772,6 +772,19 @@ vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf:vendor/etc/libnfc-nxp.conf
 
 # OEM
+-system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+system/etc/permissions/com.motorola.frameworks.core.addon.xml
+system/etc/permissions/com.motorola.motosignature.xml
+system/etc/permissions/moto-checkin.xml
+system/etc/permissions/moto-core_services.xml
+system/etc/permissions/moto-settings.xml
+system/framework/com.motorola.frameworks.core.addon.jar
+system/framework/com.motorola.motosignature.jar
+system/framework/moto-checkin.jar
+system/framework/moto-core_services.jar
+system/framework/moto-settings.jar
+system_ext/bin/motsettings
+-system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 vendor/bin/motobox
 vendor/etc/vhw.xml
 

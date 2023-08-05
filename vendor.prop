@@ -133,6 +133,8 @@ ro.bluetooth.a2dp_offload.supported=true
 # Camera
 camera.disable_zsl_mode=true
 persist.vendor.camera.physical.num=4
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.motorola.camera3,org.lineageos.aperture
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.camera3,org.lineageos.aperture
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2

@@ -123,6 +123,7 @@ vendor/etc/camera/dual_golden_depth.bin
 vendor/etc/camera/dual_golden_wide.bin
 vendor/etc/camera/mot_engine_config.bin
 vendor/etc/camera/vidhance_calibration
+vendor/etc/camera/vidhance_calibration_2rd
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so
@@ -260,14 +261,19 @@ vendor/lib64/libarcsoft_chi_utils.so
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libarcsoft_dual_sat.so
 vendor/lib64/libarcsoft_dual_zoomtranslator.so
+vendor/lib64/libarcsoft_dualcam_refocus_image.so
+vendor/lib64/libarcsoft_dualcam_refocus_video.so
 vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
 vendor/lib64/libarcsoft_portrait_distortion_correction.so
 vendor/lib64/libarcsoft_portrait_super_night_raw.so
 vendor/lib64/libarcsoft_portrait_super_night_se_raw.so
+vendor/lib64/libarcsoft_portrait_super_night_se_raw_bin.so
 vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libarcsoft_super_night_raw.so
+vendor/lib64/libarcsoft_super_night_raw_bin.so
 vendor/lib64/libarcsoft_super_night_se_raw.so
+vendor/lib64/libarcsoft_super_night_se_raw_bin.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libc2d_helper.so
@@ -334,6 +340,18 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/mot_dw9781c.prog
+
+# Camera Motorola
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+product/etc/init/init.motcamera3.lens.rc
+product/etc/permissions/com.motorola.camera3.content.ai.xml
+product/etc/permissions/com.motorola.camera3.lens.xml
+product/etc/permissions/com.motorola.camera3.tundra.xml:vendor/etc/permissions/com.motorola.camera3.tundra.xml
+product/etc/permissions/com.motorola.camera3.xml
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture,Camera2;PRESIGNED
 
 # CDSP
 vendor/bin/cdsprpcd

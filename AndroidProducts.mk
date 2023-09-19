@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_tundra.mk
+    $(LOCAL_DIR)/aosp_tundra.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_tundra-user \
-    awaken_tundra-userdebug \
-    awaken_tundra-eng
+    aosp_tundra-user \
+    aosp_tundra-userdebug \
+    aosp_tundra-eng

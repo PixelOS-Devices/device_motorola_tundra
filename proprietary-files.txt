@@ -76,19 +76,10 @@ vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libqtigef.so
 
-# Audio - Dolby
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libdapparamstorage.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libdapparamstorage.so
-
 # Audio - soundfx
 vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libdlbvol.so
 vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib/soundfx/libswgamedap.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -484,28 +475,6 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# Dolby
--system/app/MotoDolbyDax3/MotoDolbyDax3.apk
-system/etc/permissions/com.motorola.dolby.dolbyui.dax3.features.xml
-system/etc/permissions/com.motorola.frameworks.core.addon.xml
-system/etc/permissions/moto-checkin.xml
-system/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
-system/framework/com.motorola.frameworks.core.addon.jar
-system/framework/moto-checkin.jar
-system_ext/etc/permissions/com.dolby.daxservice.xml
--system_ext/priv-app/daxService/daxService.apk
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
-vendor/etc/dolby/dax-default.xml
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
-vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml
-vendor/lib/libdlbpreg.so
-vendor/lib/vendor.dolby.hardware.dms@2.0.so
-vendor/lib64/libdeccfg.so
-vendor/lib64/libdlbdsservice.so
-vendor/lib64/libdlbpreg.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so
-
 # DPM
 system/framework/tcmclient.jar
 system_ext/bin/dpmd
@@ -780,7 +749,7 @@ vendor/lib64/libcodec2_store_dolby.so
 vendor/lib64/libmmosal.so
 
 # Media configs
-vendor/etc/media_codecs_dolby_audio.xml
+vendor/etc/media_codecs_lahaina.xml
 vendor/etc/media_codecs_performance_lahaina.xml
 vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_lahaina.xml

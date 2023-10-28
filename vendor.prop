@@ -19,7 +19,6 @@ persist.vendor.audio.speaker.stereo=false
 persist.vendor.audio.spv4.enable=true
 persist.vendor.audio.vbat.enabled=false
 persist.vendor.audio.voicecall.speaker.stereo=false
-persist.vendor.audio_fx.current=dolby
 ro.audio.monitorRotation=true
 ro.vendor.audio.sdk.fluence.nn.enabled=true
 ro.vendor.audio.sdk.fluencetype=none
@@ -139,9 +138,6 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.camera3,org.li
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
-
-# Dolby
-ro.vendor.dolby.dax.version=DAX3_3.8.5.20_r1
 
 # DPM
 persist.vendor.dpm.feature=1
